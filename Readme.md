@@ -5,20 +5,38 @@
 ## 项目目录介绍
 
 -Dockerfile # Dockerfile
----dockerfile  
----online.py  
+
+---dockerfile
+
+---online.py
+
 ---requirements.txt
+
+
 -src
+
 ---inferenece.py #online serving代码
----training.py   #training代码 
+
+---training.py   #training代码
+
+
 -data
+
 ---dataset_campus_competition.txt  #训练数据
+
 ---generate_data.txt  #三天产出数据
+
 ---test_data.json #docker测试文件1
+
 ---test_data_1.json #docker测试文件2
+
+
 -doc
+
 ---MODEL.pdf              #建模文档
+
 -Readme.MD
+
 
 ### Docker构建方法
 
